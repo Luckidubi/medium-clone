@@ -29,7 +29,7 @@
             </div>
         </div>
         <a href="" class="">
-            <img class="w-full lg:w-48  min-h-full object-cover rounded-r-lg" src="{{ Storage::url($post->image) }}"
+            <img class="w-full lg:w-48  min-h-full object-cover rounded-r-lg" src="{{ asset('storage/' . $post->image) }}"
                 alt="" />
         </a>
     </div>

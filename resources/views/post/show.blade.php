@@ -51,7 +51,7 @@
 
                 <div class="mt-6">
                     @if ($post->image)
-                        <img src="{{ Storage::url($post->image) }}" alt="{{ $post->title }}"
+                        <img src="{{ asset('storage/' . $post->image) }}" alt="{{ $post->title }}"
                             class="w-full h-auto rounded-lg mb-4">
                     @endif
 
